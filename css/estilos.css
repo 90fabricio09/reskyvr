@@ -172,6 +172,10 @@ body {
     margin-bottom: 20px;
 }
 
+.text__bold {
+    font-size: 1.7rem;
+}
+
 .cta {
     display: inline-block;
     background-color: #2091F9;
