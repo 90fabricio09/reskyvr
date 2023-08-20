@@ -29,6 +29,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.video_youtube {
+    border-radius: 20px;
+    margin: 30px;
+}
+
 .container {
     width: 90%;
     max-width: 1200px;
