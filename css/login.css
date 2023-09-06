@@ -58,13 +58,13 @@ section form {
     width: 100%;
 }
 
-form label {
+label {
     color: rgb(56, 175, 255);
     font-size: 20px;
     margin-bottom: 4px;
 }
 
-form input {
+input {
     padding: 15px;
     outline: none;
     border: 0;
@@ -74,7 +74,7 @@ form input {
     border-radius: 20px;
 }
 
-form textarea {
+textarea {
     padding: 10px;
     outline: none;
     border: 0;

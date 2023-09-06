@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="../../css/estilos.css">
     <title>Resky VR - Download</title>
 </head>
+
 <body>
     <header>
         <div class="box-img-header">
@@ -18,7 +20,7 @@
 
         </nav>
         <div class="box-btn-actions">
-            <a href="../../index.html" class="nav__links3">Inicio</a>
+            <a class="nav__links3" onclick="logout()">logout</a>
         </div>
     </header>
 
@@ -27,7 +29,8 @@
             <div>
                 <h1 class="hero__title">RESKY VR</h1>
                 <h2 class="subtitle">Veja além do imposível!</h2>
-                <p class="hero__paragraph2">Você está na página de download<br>Para iniciar o Download do launcher basta<br>clicar no botão abaixo.</p>
+                <p class="hero__paragraph2">Você está na página de download<br>Para iniciar o Download do launcher
+                    basta<br>clicar no botão abaixo.</p>
                 <br>
                 <a href="../../resky_desktop.exe" class="btn-action-pc link-action">Iniciar o download</a>
                 <a href="../../resky_mobile.exe" class="btn-action-mobile link-action">Download mobile</a>
@@ -41,7 +44,7 @@
             <section class="footer__container container">
                 <nav class="nav nav--footer">
                     <h2 class="footer__title">RESKY VR</h2>
-    
+
                     <ul class="nav__link nav__link--footer">
                         <li class="nav__items">
                             <a href="../../index.html" class="nav__links">Inicio</a>
@@ -49,12 +52,33 @@
                     </ul>
                 </nav>
             </section>
-    
+
             <section class="footer__copy container">
                 <br>
                 <h3 class="footer__copyright">RESKY VR &copy; Todos os direitos reservados</h3>
             </section>
         </footer>
 </body>
+
+<!-- Firebase App is always required and must be first -->
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+<!-- Add additional services that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+
+<script>
+    var config = {
+        apiKey: "AIzaSyAwz9pF1Aq9yhqn4yg1ISdSG__N1XD_P74",
+        authDomain: "resky-vr.firebaseapp.com",
+        projectId: "resky-vr",
+        storageBucket: "resky-vr.appspot.com",
+        messagingSenderId: "153910213790",
+        appId: "1:153910213790:web:aeaa3208c5e20111d48f8f",
+        measurementId: "G-QYZWNSQSNL"
+    };
+    firebase.initializeApp(config);
+</script>
+
+<script src="../../js/email.js"></script>
 <script src="../../js/main.js"></script>
+
 </html>
