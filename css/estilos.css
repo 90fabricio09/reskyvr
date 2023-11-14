@@ -99,13 +99,12 @@ body {
 }
 
 .nav__links2 {
-    display: inline-block;
     background-color: #2091F9;
     justify-self: center;
     color: #fff;
     text-decoration: none;
-    padding: 13px 30px;
-    border-radius: 32px;
+    padding: 10px 25px;
+    border-radius: 10px;
 }
 
 .nav__links3 {
@@ -115,7 +114,7 @@ body {
     color: #fff;
     text-decoration: none;
     padding: 13px 30px;
-    border-radius: 32px;
+    border-radius: 10px;
 }
 
 .nav__menu {
@@ -188,7 +187,7 @@ body {
     color: #fff;
     text-decoration: none;
     padding: 13px 30px;
-    border-radius: 32px;
+    border-radius: 10px;
 }
 
 /* About */

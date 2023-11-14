@@ -85,15 +85,14 @@ textarea {
 }
 
 .btn {
-    width: 150px;
-    padding: 15px;
+    padding: 10px 25px;
     cursor: pointer;
     font-size: 15px;
     background-color: transparent;
     border: 2px solid #2091F9;
     color: #2091F9;
     transition: all 0.2s;
-    border-radius: 50px;
+    border-radius: 10px;
     text-decoration: none;
     text-align: center;
 }
