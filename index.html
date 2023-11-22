@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/contagem.css">
 
     <meta property="og:site_name" content="ReskyVR">
     <meta name="theme-color" content="#00aeff">
@@ -44,10 +45,7 @@
                     <a href="#sobre" class="nav__links">Sobre</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#planos" class="nav__links">Planos</a>
-                </li>
-                <li class="nav__items">
-                    <a href="./login/login.html" class="nav__links2">Login</a>
+                    <a href="#mais" class="nav__links">Saiba Mais</a>
                 </li>
 
                 <img src="./images/close.svg" class="nav__close">
@@ -58,10 +56,6 @@
             </div>
         </nav>
 
-        <div class="whatsapp-button">
-            <a href="#download"><img src="images/whatsapp-icon-transparent-png-6.png" alt=""></a>
-          </div>
-
         <section class="hero__container container">
             <h1 class="hero__title">ReskyVR</h1>
             <p class="hero__paragraph">Veja além do imposível!</p>
@@ -70,6 +64,30 @@
     </header>
 
     <main>
+        <section class="score">
+            <h2 class="subtitle">Lançamento</h2>
+            <p class="questions__paragraph">Previsão para o lançamento oficial da ReskyVR!</p>
+            <br>
+            <div class="countdown">
+                <div class="tempo">
+                    <h1 id="dias">00</h1>
+                    <p>Dias</p>
+                </div>
+                <div class="tempo">
+                    <h1 id="horas">00</h1>
+                    <p>Horas</p>
+                </div>
+                <div class="tempo">
+                    <h1  id="minutos">00</h1>
+                    <p>Minutos</p>
+                </div>
+                <div class="tempo">
+                    <h1 id="segundos">00</h1>
+                    <p>Segundos</p>
+                </div>
+            </div>
+        </section>
+
         <section class="container about" id="sobre">
             <h2 class="subtitle">O que a ReskyVR oferece?</h2>
             <p class="about__paragraph">A ReskyVR é um aplicativo que utiliza a realidade virtual para aumentear sua produtividade.</p>
@@ -100,83 +118,36 @@
                 <div class="knowledege__texts">
                     <h2 class="subtitle">Seja mais produtivo com a ReskyVR!</h2>
                     <p class="knowledge__paragraph">O ReskyVR é um aplicativo móvel e desktop que oferece aos usuários a possibilidade de acessar um ambiente de trabalho em realidade virtual por meio de seus dispositivos. O principal objetivo do aplicativo é proporcionar aos usuários um espaço de trabalho virtual confortável e focado na produtividade, com recursos que visam melhorar a eficácia de suas tarefas diárias.</p>
-                    <a href="#planos" class="cta">Planos</a>
+                    <a href="#mais" class="cta">Saiba Mais</a>
                 </div>
 
                 <figure class="knowledge__picture">
-                    <img src="./images/macbook.png" class="knowledge__img">
+                    <img src="./images/virtual-reality-animate.svg" class="knowledge__img">
                 </figure>
             </div>
         </section>
 
-        <section class="price container" id="planos">
-            <h2 class="subtitle">Adquira agora alguns de nossos planos.</h2>
-
-            <div class="price__table">
-                <div class="price__element">
-                    <p class="price__name"><b>Mensal</b></p>
-                    <h3 class="price__price"><b>R$39,99/mês</b></h3>
-
-                    <div class="price__items">
-                        <p class="price__features">Acesso</p>
-                        <p class="price__features">Funcionalidades</p>
-                        <p class="price__features">Plano mensal</p>
-                    </div>
-
-                    <a href="login/cadastro.html" class="price__cta">Assine agora!</a>
-
-                </div>
-
-
-                <div class="price__element price__element--best">
-                    <p class="price__name"><b>Anual</b></p>
-                    <h3 class="price__best"><b>R$29,99/mês</b></h3>
-                    <h3 class="price__best2">R$359,88</h3>
-
-                    <div class="price__items">
-                        <p class="price__features">Acesso</p>
-                        <p class="price__features">Funcionalidades</p>
-                        <p class="price__features">Plano anual</p>
-                    </div>
-
-                    <a href="login/cadastro.html" class="price__cta2">Assine agora!</a>
-
-                </div>
-
-
-                <div class="price__element">
-                    <p class="price__name"><b>Trimestral</b></p>
-                    <h3 class="price__price"><b>R$34,99/mês</b></h3>
-                    <h3 class="price__price2">R$104,97</h3>
-
-                    <div class="price__items">
-                        <p class="price__features">Acesso</p>
-                        <p class="price__features">Funcionalidades</p>
-                        <p class="price__features">Plano trimestral</p>
-                    </div>
-
-                    <a href="login/cadastro.html" class="price__cta">Assine agora!</a>
-
-                </div>
-
-
-            </div>
-        </section>
-
-        <section class="questions container">
+        <section class="questions container" id="mais">
+            <br>
+            <section class="questions__offer" id="download">
+                <h2 class="subtitle">Desktop & Mobile</h2>
+                <p class="questions__paragraph">Nosso aplicativo é desktop e mobile.</p>
+                <img src="./images/post.png" alt="" class="video_youtube">
+            </section>
+            <br>
             <h2 class="subtitle">Dúvidas frequentes</h2>
-            <p class="questions__paragraph">Algumas dúvidas frequentes sobre o nosso aplicativo.</p>
+            <p class="questions__paragraph">Algumas dúvidas frequentes sobre a ReskyVR.</p>
 
             <section class="questions__container">
                 <article class="questions__padding">
                     <div class="questions__answer">
-                        <h3 class="questions__title">O que oferecemos?
+                        <h3 class="questions__title">O que oferecemos.
                             <span class="questions__arrow">
                                 <img src="./images/arrow.svg" class="questions__img">
                             </span>
                         </h3>
 
-                        <p class="questions__show"> ReskyVR é um aplicativo móvel e desktop que oferece aos usuários a possibilidade de acessar um ambiente de trabalho em realidade virtual por meio de seus dispositivos. O principal objetivo do aplicativo é proporcionar aos usuários um espaço de trabalho virtual confortável e focado na produtividade, com recursos que visam melhorar a eficácia de suas tarefas diárias.</p>
+                        <p class="questions__show">ReskyVR é um aplicativo móvel e desktop que oferece aos usuários a possibilidade de acessar um ambiente de trabalho em realidade virtual por meio de seus dispositivos. O principal objetivo do aplicativo é proporcionar aos usuários um espaço de trabalho virtual confortável e focado na produtividade, com recursos que visam melhorar a eficácia de suas tarefas diárias.</p>
                     </div>
                 </article>
 
@@ -194,22 +165,15 @@
 
                 <article class="questions__padding">
                     <div class="questions__answer">
-                        <h3 class="questions__title">Como instalar?
+                        <h3 class="questions__title">Sobre a personalização.
                             <span class="questions__arrow">
                                 <img src="./images/arrow.svg" class="questions__img">
                             </span>
                         </h3>
 
-                        <p class="questions__show">Para você realizar o download do nosso aplicativo basta acessar o botão <a href="#download" class="link__download">Download</a> e assim que for instalado o laucher registrar sua conta.</p>
+                        <p class="questions__show">O aplicativo também oferece opções de personalização, permitindo que os usuários adaptem o ambiente de trabalho virtual de acordo com suas preferências individuais. É possível alterar a aparência visual, organizar os monitores virtuais de forma conveniente e selecionar temas ou ambientes para criar uma experiência de trabalho personalizada.</p>
                     </div>
                 </article>
-            </section>
-
-            <section class="questions__offer" id="download">
-                <h2 class="subtitle">Ficou interessado no aplicativo?</h2>
-                <iframe width="700" height="394" src="https://www.youtube.com/embed/Vdi-2onj75w?si=os55N1LwXpK-jyut" class="video_youtube" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p class="questions__copy">Você pode instalar nosso aplicativo através do botão abaixo.</p>
-                <a href="login/login.html" class="cta">Download</a>
             </section>
         </section>
     </main>
@@ -227,11 +191,8 @@
                         <a href="#sobre" class="nav__links">Sobre</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#planos" class="nav__links">Planos</a>
+                        <a href="#mais" class="nav__links">Saiba Mais</a>
                     </li>
-                    <li class="nav__items">
-                        <a href="./login/login.html" class="nav__links">Login</a>
-                    </li> 
                 </ul>
             </nav>
         </section>
@@ -245,6 +206,7 @@
     <script src="./js/slider.js"></script>
     <script src="./js/questions.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/contagem.js"></script>
 </body>
 
 </html>

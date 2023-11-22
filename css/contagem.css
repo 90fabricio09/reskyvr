@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+.score {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.countdown {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.tempo {
+    margin: 40px;
+}
+
+.countdown h1 {
+    font-size: 100px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #00aeff;
+    text-shadow: 2px 2px 5px rgba(0, 183, 255, 0.048);
+}
+
+@media (max-width:800px) {
+    .tempo {
+        margin: 20px;
+    }
+}
+
+@media (max-width:650px) {
+    .countdown h1 {
+        font-size: 50px;
+    }
+    .tempo {
+        margin: 10px;
+    }
+}
