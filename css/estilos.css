@@ -207,6 +207,7 @@ body {
 
 .about__paragraph {
     line-height: 1.7;
+    margin: 20px;
 }
 
 .about__main {
